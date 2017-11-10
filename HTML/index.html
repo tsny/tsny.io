@@ -4,7 +4,7 @@
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title>Intrinsicly Scattered</title>
+        
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="" name="tsny.io, my personal website"/>
@@ -23,11 +23,14 @@
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="img/favicon.ico"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/randomTitles.js"></script>
     </head>
     <!-- END HEAD -->
 
     <!-- BODY -->
-    <body id="body" data-spy="scroll" data-target=".header">
+    <body onload="setTitle();" id="body" data-spy="scroll" data-target=".header">
 
         <!--========== HEADER ==========-->
         <header class="header navbar-fixed-top">
