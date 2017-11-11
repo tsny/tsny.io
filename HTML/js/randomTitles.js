@@ -17,7 +17,11 @@ var titles = new Array
     'Cmon Josh', 'Go tigers',
     'The tsny', 'Thats so parrfect',
     'Home of Ryans Laugh', 'RIP Noto',
-    'Return the slab', '90s kids only'
+    'Return the slab', '90s kids only',
+    'Uhhh I dunno', 'Nickel the Pickle',
+    'tsny the swell guy', 'jake308 was here',
+    'the faust haus', 'apple bies?',
+    'RIP Papa John'
 );
 
 function getTitle()
