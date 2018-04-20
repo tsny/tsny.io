@@ -87,6 +87,19 @@ var specChanges = new Array
         "The patriots won!",
         "The blues won!",
         "Mizzou logos everywhere!",
+        "Half the amount of floors!",
+        "Twice the amount of floors!",
+        "THREE TIMES AS MANY FLOORS!",
+        "Oh only one floor...",
+        "Double the windows!",
+        "More JAZZ BANDS!",
+        "DONUTS!",
+        "There's a hot dog stand!",
+        "Two hot dog stands!",
+        "Peaceful Protest!",
+        "Adjacent Buildings Demolished!",
+        "Add a bar next door!",
+        "Add a restaurant next door!",
         
 )
 
@@ -143,5 +156,10 @@ function GetNewSpec()
 {
     var randomIndex = Math.floor(Math.random() * (specChanges.length - 1)) + 1;
     specs.innerHTML += specChanges[randomIndex] + "<br />";
- 
+    
+    duration = getRandomInt(6, 10);
+}
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
