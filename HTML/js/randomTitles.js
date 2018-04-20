@@ -62,6 +62,16 @@ var specChanges = new Array
         "There's a parade on the roof!",
         "The moon's out!",
         "The sun is huge!",
+        "A plane is taking off!",
+        "There's 3 planes in the air!",
+        "The sewer is overflowing!",
+        "The building is brick!",
+        "It's Christmas!",
+        "It's Easter!",
+        "It's St. Patties!",
+        "The President is visiting!",
+        "It's Rush Hour!",
+        
 )
 
 function getTitle()
