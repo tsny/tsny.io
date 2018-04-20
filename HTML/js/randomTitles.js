@@ -55,6 +55,13 @@ var specChanges = new Array
         "There's a billboard nearby, about TV!",
         "There's a billboard nearby, about bananas!",
         "There's a parade going on in the street!",
+        "The windows are circular!",
+        "Half the windows are open!",
+        "Half the windows are circular!",
+        "Close those windows!",
+        "There's a parade on the roof!",
+        "The moon's out!",
+        "The sun is huge!",
 )
 
 function getTitle()
